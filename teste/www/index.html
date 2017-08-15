@@ -1,41 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>Só de Cenoura Garçom</title>
-    <link rel="stylesheet" href="icons/material.css">
-    <link rel="stylesheet" href="css/materialize.min.css">
-    <link rel="stylesheet" href="css/estilos.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>Só de Cenoura Garçom</title>
+	<link rel="stylesheet" href="icons/material.css">
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 	
-<div class="topo_fixo z-depth-1">
-	<div class="valign-wrapper yellow darken-4 white-text">
-		<h5 class="titulo">Só de Cenoura</h5>
-		
-		<div>
-			<i data-activates="submenu" data-gutter="5" data-contrainwidth="false" 
-			class="material-icons waves-effect waves-light waves-circle dropdown-button">more_vert</i>
+	<div class="topo_fixo z-depth-1">
+		<div class="valign-wrapper yellow darken-4 white-text">
+			<h5 class="titulo">Só de Cenoura</h5>
+			
+			<div>
+				<i data-activates="submenu" data-gutter="5" data-contrainwidth="false" 
+				class="material-icons waves-effect waves-light waves-circle dropdown-button">more_vert</i>
+			</div>
+			
+
+			<ul class="dropdown-content" id="submenu">
+				<li><a class="black-text acao-limpar" href="">Limpar</a></li>
+			</ul>
+			
 		</div>
-		
 
-		<ul class="dropdown-content" id="submenu">
-			<li><a class="black-text acao-limpar" href="">Limpar</a></li>
+		<ul class="tabs yellow darken-4">
+			<li class="tab"><a href="#bolos" class="white-text waves-effect waves-light">Bolos</a></li>
+			<li class="tab"><a href="#bebidas" class="white-text waves-effect waves-light">Bebidas</a></li>
 		</ul>
-	
 	</div>
-
-	<ul class="tabs yellow darken-4">
-		<li class="tab"><a href="#bolos" class="white-text waves-effect waves-light">Bolos</a></li>
-		<li class="tab"><a href="#bebidas" class="white-text waves-effect waves-light">Bebidas</a></li>
-	</ul>
-</div>
 
 	<div class="section" id="bolos">
 		<h6 class="container">Em pedaço</h6>
 		<div class="collection">
-			<a class="collection-item waves-effect black-text">Só de Cenoura</a>
+			<!-- <a class="collection-item waves-effect black-text">Só de Cenoura</a> -->
+			<a class="collection-item waves-effect">Só de Cenoura</a>
 			<a class="collection-item waves-effect">Com Nutella</a>
 			<a class="collection-item waves-effect">De Brigadeiro</a>
 			<a class="collection-item waves-effect">Açucarado</a>
@@ -66,11 +67,11 @@
 		</div>
 
 		<h6 class="container">Sucos</h6>
-	    <div class="collection">
-	        <a class="collection-item">Melancia</a>
-	        <a class="collection-item">Tangerina</a>
-	        <a class="collection-item">Limão</a>
-	    </div>
+		<div class="collection">
+			<a class="collection-item">Melancia</a>
+			<a class="collection-item">Tangerina</a>
+			<a class="collection-item">Limão</a>
+		</div>
 	</div>
 
 	<div class="fixed-action-btn">
@@ -101,8 +102,8 @@
 	</div>
 
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/materialize.min.js"></script>
-    <script src="js/app.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>
