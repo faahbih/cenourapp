@@ -21,10 +21,8 @@ $('#confirmar').on('click', function(){
 
 		texto += produto + ': ' + quantidade + ', ';
 
-		var nomeProduto = this.firstChild.textContent;
-		Materialize.toast(nomeProduto + ' adicionado', 1000);
-
-		
+		// var nomeProduto = this.firstChild.textContent;
+		// Materialize.toast(nomeProduto + ' adicionado', 1000);
 	});
 
 	$('#resumo').text(texto);
