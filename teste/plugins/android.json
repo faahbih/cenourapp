@@ -12,7 +12,17 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "org.fabiana.teste"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "org.fabiana.teste"
+        },
+        "phonegap-plugin-barcodescanner": {
+            "PACKAGE_NAME": "org.fabiana.teste"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "org.fabiana.teste"
+        }
+    }
 }

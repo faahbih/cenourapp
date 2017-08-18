@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="org.fabiana.teste" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="BarcodeScanner">
+        <param name="browser-package" value="BarcodeScanner" />
+    </feature>
     <name>Só de Cenoura</name>
     <description>
        App para uso de pedidos em um restaurante
@@ -7,10 +10,10 @@
     <author email="fabiana.rr.oliveira@gmail.com" href="http://cordova.io">
         Fabiana Oliveira
     </author>
-    <icon src="resources\android\icon\drawable-xhdpi-icon.png" />
+    <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
     <preference name="Orientation" value="portrait" />
-    <preference name="Fullscreen" value="true" />
     <preference name="BackgroundColor" value="0xF2F2F2FF" />
+    <preference name="DisallowOverscroll" value="true" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
 </widget>
