@@ -15,6 +15,9 @@
     <feature name="BarcodeScanner">
         <param name="android-package" value="com.phonegap.plugins.barcodescanner.BarcodeScanner" />
     </feature>
+    <feature name="Vibration">
+        <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
+    </feature>
     <name>Só de Cenoura</name>
     <description>
        App para uso de pedidos em um restaurante
@@ -22,6 +25,7 @@
     <author email="fabiana.rr.oliveira@gmail.com" href="http://cordova.io">
         Fabiana Oliveira
     </author>
+    <access origin="http://cozinhapp.sergiolopes.org" />
     <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
     <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
     <icon density="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />
