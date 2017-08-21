@@ -71,7 +71,7 @@ $('.acao-finalizar').on('click', function() {
 
             $('#numero-mesa').val('');
             $('.badge').remove();
-            navigator.vibrate(3000);
+            navigator.vibrate(2000);
         }
     });
 });

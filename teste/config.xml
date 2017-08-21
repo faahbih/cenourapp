@@ -57,6 +57,7 @@
         <splash height="480" src="resources/ios/splash/Default~iphone.png" width="320" />
     </platform>
     <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
+    <splash src="resources/android/splash/drawable-port-xhdpi-screen.png" />
     <platform name="android">
         <preference name="StatusBarBackgroundColor" value="#E86C13" />
     </platform>

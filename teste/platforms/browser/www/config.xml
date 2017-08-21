@@ -12,6 +12,7 @@
     </author>
     <access origin="http://cozinhapp.sergiolopes.org" />
     <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
+    <splash src="resources/android/splash/drawable-port-xhdpi-screen.png" />
     <preference name="Orientation" value="portrait" />
     <preference name="BackgroundColor" value="0xF2F2F2FF" />
     <preference name="DisallowOverscroll" value="true" />
